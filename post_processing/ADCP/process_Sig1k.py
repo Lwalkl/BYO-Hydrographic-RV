@@ -249,7 +249,7 @@ def process(path, save_dir):
     )
     Data['CellDepth'].to_hdf( os.path.join(save_dir, 'CellDepth'), key="df", mode="w")
     
-directory_path = r"Z:\BHBoemData\Raw\S0_103080_hdf\Group1"
+directory_path = r"Z:\BHBoemData\Raw\S0_103080_hdf\Group2"
 save_dir = r"Z:\BHBoemData\Processed\S0_103080"
 
 process(directory_path, save_dir)
